@@ -2,7 +2,7 @@ let profiles = [];
 let currentIndex = 0;
 
 async function fetchCatImages() {
-    const apiKey = 'live_RKlNUiLjrI1UjX0dGlvT1Vaq4egxQAUwoiutWa0wDyU4C5Jiz9tGaVJJ3eSmCi80';
+    const apiKey = 'your API key';
     try {
         const response = await fetch('https://api.thecatapi.com/v1/images/search?limit=10', {
             headers: {
